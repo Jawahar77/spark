@@ -1,0 +1,6 @@
+# @sparkouttech
+### To run the code
+First install java
+...
+$ java (filename)
+...
