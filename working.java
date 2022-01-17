@@ -1,8 +1,52 @@
 public class working{
+  
+  
+   
+    public static void main(String[] args)
+    {
+        
+    }
 
 
-    public static void main(String[] args){
 
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 
         String[][] cars = {{"Volvo", "BMW", "Ford", "Mazda"},{"jawa","jajaj","2311"}};
 
@@ -27,12 +71,9 @@ public class working{
         System.out.println(txt.charAt(0)); // index value to get char
         System.out.println(txt.hashCode());
 
+        char[] arrSample = {'R', 'O', 'S', 'E'};
+        String strSample_1 = new String (arrSample);  //char to string
+
+        System.out.println(strSample_1);
         
-
-    
-    
-//haia a
-
-    }
-
-}
+*/
