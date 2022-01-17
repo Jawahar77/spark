@@ -23,9 +23,8 @@ public class for_arrays{
             sum =sum*arr[i];
         return sum;        
     }
-
-  
-   
+ 
+    
     public static void main(String[] args)  {
          // 4..SUM OF THE ARRAY --------------------
         System.out.println(sum());
@@ -38,7 +37,6 @@ public class for_arrays{
         System.out.println(a4[4]);
         int b4[][]={{1,2,3,4},{2,3,4,5}};
         System.out.println(b4[0][2]);
-
 
         
         //6.. COPYING THE ARRAY---------------------
@@ -71,10 +69,8 @@ public class for_arrays{
         //9.. Get a Random Value from an Array-------------------
           
         String[] arr={"1", "2", "3", "4", "5"}; 
-        Random r=new Random(); 
-               
+        Random r=new Random();    
         int randomNumber=r.nextInt(arr.length); 
-       
         System.out.println(arr[randomNumber]); 
 
         //10.. Get the First and Last Element of an Array---------------
@@ -117,15 +113,28 @@ public class for_arrays{
            System.out.println("it is a empty array");
 
 
-        
+        //15 .. suffle the array ............
 
+        Integer[] intArray23 = { 1, 2, 3, 4, 5, 6, 7 };
+		List<Integer> intList = Arrays.asList(intArray23);
+		Collections.shuffle(intList);
+        System.out.println(intList);
+
+        
+        //16..Remove Duplicates from an Array----------------
+
+        Integer[] ar7={1,2,3,4,5,1,1,2,};
+        Set<Integer> an=new HashSet(Arrays.asList(ar7));
+        System.out.println(an);
+
+        
        //17 ..print an arrays-------------------------
 
        int[] a234={1,23,4,5,6,7};
        for(int ab:a234){
            System.out.println(ab);
-
        }
+
        
         //18 ..Filter Values in an Array------------------------
 
@@ -138,51 +147,17 @@ public class for_arrays{
                 System.out.println(am);
 
             }
-
         }
 
        //19..Check if a Java Array Contains a Value------------------
        int[] a34={1,23,4,5,6,7};
-       int val =4;
+       int val =7;
        for(int t:a34){
            if(t==val){
                System.out.println("the "+val+" is present in the array"); 
            }
+        }
 
-
-        //15 .. suffle the array ............
-
-        Integer[] intArray = { 1, 2, 3, 4, 5, 6, 7 };
-
-		List<Integer> intList = Arrays.asList(intArray);
-
-		Collections.shuffle(intList);
-
-		intList.toArray(intArray);
-
-		System.out.println(Arrays.toString(intArray));
-
-
-            }
-        
-
-        //16..Remove Duplicates from an Array----------------
-
-
-
-
-
-
-        //19 ..Check if a Java Array Contains a Value------------
-
-
-
-        
-           
-       }
-
-
+   
     }
-
-
 }
