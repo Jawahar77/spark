@@ -55,12 +55,12 @@ public class for_arrays{
         //8..binary search of arrays----------------
 
             int arrr[] = {10,200,3130,420,50}; 
-            int key=50;
+            int valu2=50;
             Arrays.sort(arrr);
-            int result = Arrays.binarySearch(arrr,key); 
+            int result = Arrays.binarySearch(arrr,valu2); 
 
             if (result>0)
-                System.out.println("that key is index found "+result);
+                System.out.println("that values is index found "+result);
             else{
                 System.out.println("you are specified worng keys");
             }
@@ -153,11 +153,19 @@ public class for_arrays{
        int[] a34={1,23,4,5,6,7};
        int val =7;
        for(int t:a34){
-           if(t==val){
+           if(t==val){ 
                System.out.println("the "+val+" is present in the array"); 
            }
         }
 
+        //20 .. adding two arrays
+
+        int[] abcd={1,2,3,4};
+        int[] efgh={1,2,3,4};
+
+        for(int i=0;i<abcd.length;i++){
+            System.out.println(abcd[i]+efgh[i]);
+        }
    
     }
 }
